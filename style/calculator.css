@@ -1,0 +1,49 @@
+
+      body, html {
+        background-color: #333;
+        font-weight: 300;
+      }
+
+      #calculator {
+        margin: 0 auto;
+        width: 400px;
+        font-family: 'San Francisco', sans-serif;
+      }
+
+      #buttons {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+      }
+
+      #screen {
+        background-color: white;
+        text-align: right;
+        font-size: 60px;
+        box-sizing: border-box;
+        height: 80px;
+        line-height: 80px;
+        padding: 0 10px;
+        overflow: auto;
+      }
+
+      #buttons div {
+        border: 1px solid #fff;
+        background-color: #eee;
+        height: 100px;
+        width: 100px;
+        box-sizing: border-box;
+        line-height: 100px;
+        text-align: center;
+        font-size: 40px;
+        cursor: pointer;
+      }
+
+      #buttons .function {
+        background-color: orange;
+        color: white;
+      }
+
+      #buttons .memory {
+        background-color: #ddd;
+      }
